@@ -205,51 +205,24 @@ table {
  overflow:auto;
 }
 
-.partners1{
-	background-color:#E4E5E3;
-	width:100%;
-	padding: 5rem 0;
-    white-space: nowrap;
-    position: relative;
-}
-
-.partners1 img {
-
-    margin: 0 4rem;
-
-	vertical-align: top;
-}
-
 .partners1 {
   height: 300px;
   width: auto;
 }
+
 .partners1 img {
-  width: 100px;
+  width: 100%;
   max-width: 100px;
   height: auto;
   vertical-align: center;
-  text-align: center;
-  justify-items: baseline;
-  margin-top: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
+    margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position:relative;
+  padding: 10px 0;
 }
 
-.mySlides {
-  position: center;
-  width:100%;
-}
-/* Fading animation */
-.fade {
-animation-name: fade;
-animation-duration: 3s;
-}
 
-@keyframes fade {
-from {opacity: .6} 
-to {opacity: 1}
-}
 
 .services_wrap{
   padding: 0 20%;
@@ -380,7 +353,8 @@ h4 {
 /*section ucomong matches table*/
 
 .table-wrapper{
-  margin: 20px 80px 80px;
+  margin: 50px 80px 0px;
+  
   
 }
 
